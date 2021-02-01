@@ -1,0 +1,19 @@
+@import 'variables';
+
+.container{
+    max-width: 970px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.title{
+    font-family: $bebas;
+    color: #ffffff;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.text{
+    font-size: 12px;
+    color: #ffffff;
+}
