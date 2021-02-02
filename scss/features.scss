@@ -1,0 +1,31 @@
+@import 'variables';
+
+.features__block {
+    display: flex;
+    justify-content: space-between;
+    row-gap: 50px;
+    column-gap: 25px;
+    flex-wrap: wrap;
+}
+.feature {
+    max-width: 275px;
+}
+.feature__header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+}
+.feature__img {
+    margin-right: 22px;
+}
+.feature__title {
+    color: $orange;
+    max-width: 165px;
+    line-height: 1.2;
+}
+.feature__text {
+    color: $textColor;
+    margin-bottom: 30px
+}
+.feature__link {
+}

@@ -2,10 +2,11 @@
 .welcome{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 40px;
 }
 .welcome-slider{
     position: relative;
-    height: 400px;
+    // height: 520px;
     margin: 0 10px;
 }
 .welcome__img {
@@ -15,7 +16,7 @@
 }
 .welcome-slider__description {
     position: absolute;
-    bottom: 6%;
+    bottom: 30%;
     left: 4%;
     max-width: 390px;
     background-color: rgba(232, 102, 60, 0.6);
@@ -36,7 +37,7 @@
 .welcome-slider__previous,.welcome-slider__next{
     position: absolute;
     z-index: 1;
-    top: 40%;
+    top: 30%;
     background: none;
     border: none;
     cursor: pointer;
@@ -54,10 +55,10 @@
 }
 .welcome-thumbnails{
     display: flex;
-    justify-content: space-between;
-    row-gap: 17px;
+    justify-content: center;
+    row-gap: 20px;
+    column-gap: 26px;
     flex-wrap: wrap;
-    max-width: 970px;
     margin-top: 17px;
 }
 .welcome-thumbnails__item{
