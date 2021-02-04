@@ -30,6 +30,53 @@
   opacity: 0.7;
 }
 
+.decoration-left, .decoration-right {
+  width: 15%;
+  background-color: #e8663c;
+  opacity: 0.6;
+}
+
+.header-title {
+  display: flex;
+  align-items: center;
+}
+
+.header-title-name {
+  color: #e8663c;
+}
+
+.header-title-line {
+  background: url(/img/header-lines.png);
+  height: 19px;
+}
+
+.posts {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+
+.posts-item {
+  text-decoration: none;
+}
+.posts-item:hover > img {
+  opacity: 0.7;
+  transition: 0.2s ease-in;
+}
+
+.posts-description {
+  padding: 15px 0 15px 15px;
+  border: 1px solid #b9b9b9;
+  border-top: none;
+}
+
+.posts-date {
+  font-family: "Bebas Neue", cursive;
+  font-size: 14px;
+  color: #e8663c;
+}
+
 .header {
   padding: 20px 0;
   display: flex;
@@ -107,11 +154,8 @@
   line-height: 16px;
 }
 
-.welcome__decoration-left, .welcome__decoration-rigth {
-  width: 15%;
+.decoration-left__welcome, .decoration-right__welcome {
   height: 60px;
-  background-color: #e8663c;
-  opacity: 0.6;
 }
 
 .welcome-slider__previous, .welcome-slider__next {
@@ -183,4 +227,98 @@
 .feature__text {
   color: #414141;
   margin-bottom: 30px;
+}
+
+.works {
+  margin: 50px 0;
+}
+
+.header-title__works {
+  margin-bottom: 25px;
+}
+
+.header-title-name__works {
+  margin-right: 20px;
+}
+
+.header-title-line__works {
+  width: 88%;
+}
+
+.posts-title__works {
+  font-size: 18px;
+  color: #b9b9b9;
+}
+
+.footer {
+  display: flex;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 35px 40px;
+  background-color: #e8663c;
+  width: 900px;
+  margin: 0 auto;
+}
+
+.footer-about {
+  max-width: 260px;
+}
+
+.footer-about__title, .footer-widget__title, .footer-contact__title {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.footer-about__text, .footer-contact__text {
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+.footer-about__text:last-child, .footer-contact__text:last-child {
+  margin-bottom: 0;
+}
+
+.footer-widget {
+  max-width: 220px;
+}
+
+.footer-widget__tweet {
+  margin-bottom: 20px;
+}
+
+.footer-widget__nickname {
+  color: #b9b9b9;
+  text-decoration: none;
+}
+.footer-widget__nickname:hover {
+  text-decoration: underline;
+}
+
+.footer-widget__time {
+  display: block;
+  color: #b9b9b9;
+  margin-top: 5px;
+}
+
+.footer-contact__email, .footer-contact__phone {
+  display: block;
+}
+
+.footer-contact {
+  max-width: 250px;
+}
+
+.footer-contact__socials {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.footer-contact__img {
+  margin-right: 5px;
+}
+.footer-contact__img:last-child {
+  margin-right: 0;
 }

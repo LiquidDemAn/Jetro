@@ -1,4 +1,4 @@
-@import "variables";
+
 .welcome{
     display: flex;
     justify-content: space-between;
@@ -28,11 +28,8 @@
 .welcome-slider__text {
     line-height: 16px;
 }
-.welcome__decoration-left,.welcome__decoration-rigth{
-    width: 15%;
+.decoration-left__welcome,.decoration-right__welcome{
     height: 60px;
-    background-color: $orange;
-    opacity: .6;
 }
 .welcome-slider__previous,.welcome-slider__next{
     position: absolute;
