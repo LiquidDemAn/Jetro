@@ -4,6 +4,7 @@
 .footer-wrapper{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding: 40px 35px 40px;
     background-color: $orange;
     width: 900px;
@@ -29,8 +30,6 @@
 }
 .footer-widget__tweet {
     margin-bottom: 20px;    
-}
-.footer-widget__text {
 }
 .footer-widget__nickname {
     color: $gray;

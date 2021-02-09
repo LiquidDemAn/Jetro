@@ -5,14 +5,12 @@
     margin: 0 auto;
     padding: 0 10px;
 }
-
 .title{
     font-family: $bebas;
     color: #ffffff;
     font-size: 20px;
     text-transform: uppercase;
 }
-
 .text{
     font-size: 14px;
     color: #ffffff;
@@ -52,28 +50,19 @@
     justify-content: space-between;  
     flex-wrap: wrap;
     row-gap: 20px;
-    // column-gap: 30px;
 }
 .posts-item {
     text-decoration: none;
-
 
     &:hover>img{
         opacity: 0.7;
         transition:0.2s ease-in;
     }
 }
-.posts-img {
-}
 .posts-description {
     padding: 15px 0 15px 15px;
     border: 1px solid $gray;
     border-top: none;
-}
-.posts-title {
-    
-}
-.title {
 }
 .posts-date {
     font-family: $bebas;
