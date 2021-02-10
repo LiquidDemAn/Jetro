@@ -9,4 +9,4 @@ $(document).ready(function(){
         asNavFor: '.welcome-slider__wrapper',
         focusOnSelect: true
     });
-});
+}); 

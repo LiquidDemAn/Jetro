@@ -1,17 +1,22 @@
 .features__block {
     display: flex;
     justify-content: space-between;
-    row-gap: 50px;
+    row-gap: 30px;
     column-gap: 25px;
     flex-wrap: wrap;
 }
 .feature {
     max-width: 275px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
 }
 .feature__header {
     display: flex;
     align-items: center;
-    margin-bottom: 35px;
+    margin-bottom: 20px;
 }
 .feature__img {
     margin-right: 22px;
@@ -23,6 +28,22 @@
 }
 .feature__text {
     color: $textColor;
-    margin-bottom: 30px
+    margin-bottom: 20px
+}
+@media (min-width: 600px) { 
+    .features__block {
+        row-gap: 50px;
+    }
+    .feature__header {
+        margin-bottom: 35px;
+    }
+    .feature {
+        text-align: left;
+        align-items: flex-start;
+        margin: 0 auto;
+    }
+    .feature__text {
+        margin-bottom: 30px
+    }
 }
 
