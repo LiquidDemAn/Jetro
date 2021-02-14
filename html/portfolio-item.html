@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/reset.css">
-    <link rel="stylesheet" href="/css/portfolio-page.css">
+    <link rel="stylesheet" href="/css/portfolio-item.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@300;400&display=swap" rel="stylesheet">
-    <title>Jetro - Portfolio</title>
+    <title>Jetro - Portfolio item</title>
 </head>
 <body>
     <header class="header">
@@ -34,7 +34,7 @@
                         </a>
                     </li>
                     <li class="header__item" >
-                        <a href="#" class="header__link header__link--active">
+                        <a href="/html/portfolio.html" class="header__link header__link--active">
                             portfolio
                         </a>
                     </li>
@@ -50,44 +50,38 @@
             </div>
         </div>
     </header>
-    <main class="portfolio">
+    <main class="portfolio-item">
         <section class="portfolio-wrapper">
-            <div class="decoration-left decoration-left__portfolio"></div>
+            <div class="decoration-left "></div>
             <div class="portfolio-header">
                 <div class="section-header">
                     <h2 class="section-header__title title">
-                        portfolio
+                        slider plagin
                     </h2>
                 </div>
             </div>
-            <div class="decoration-right decoration-right__portfolio"></div>    
+            <div class="decoration-right"></div>    
         </section>
         <div class="container">
-            <ul class="portfolio__menu">
-                <li class="portfolio__item">
-                    <a href="" class="portfolio__link">all</a>
-                </li>
-                <li class="portfolio__item">
-                    <a href="" class="portfolio__link">print</a>
-                </li>
-                <li class="portfolio__item">
-                    <a href="" class="portfolio__link">web</a>
-                </li>
-                <li class="portfolio__item">
-                    <a href="" class="portfolio__link">photoshop</a>
-                </li>
-                <li class="portfolio__item">
-                    <a href="" class="portfolio__link">wordpress</a>
-                </li>
-            </ul>
+            <img src="/img/portfolio-item-img1.jpg" alt="" class="portfolio-item__img">
+            <div class="portfolio-item__description">
+                <p class="portfolio-item__text">Praesent in dictum est. Fusce scelerisque nibh in sem rhoncus semper. Sed nisi risus, adipiscing eu mollis luctus, elementum at lacus. Suspendisse porta, eros eu fermentum molestie, purus erat hendrerit tellus, sodales rhoncus justo sapien in lacus. Morbi tincidunt lorem vitae turpis molestie lacinia. Vivamus nec nulla turpis. Ut placerat lacus aliquet ipsum lobortis vitae varius felis ullamcorper. Maecenas pharetra imperdiet dolor eu pulvinar.</p>
+                <p class="portfolio-item__text">Nullam justo quam, tristique sit amet facilisis non, commodo vel nunc. In quam libero, pulvinar et scelerisque vitae, molestie euismod justo. Donec tortor magna, vehicula in facilisis sit amet, ultricies nec massa. Curabitur at tincidunt sem. Mauris nulla justo, ornare in condimentum non, eleifend at nibh. Nullam mattis faucibus odio, sit amet aliquam urna lobortis sit amet. Aliquam mauris elit, consectetur vestibulum tincidunt vitae, sodales vel libero. Phasellus malesuada, metus vitae lobortis sodales, diam lacus lacinia metus, id sodales ante urna in urna. Duis elementum luctus mi, et euismod leo aliquet at. Proin justo est, elementum in posuere ac, pharetra non ipsum. Phasellus sit amet nisi quis lacus hendrerit elementum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi bibendum enim ut sapien pellentesque lacinia. Aliquam fringilla sem eget sem pulvinar egestas. Duis congue lorem id mi scelerisque gravida. Ut in lacus libero. </p>
+            </div>
         </div>
         <section class="works">
             <div class="container">
-
-                <div class="posts posts__portfolio">
-
-                    <!-- firstRow -->
-                    <a href="/html/portfolio-item.html" class="posts-item">
+    
+                <div class="header-title header-title__works">
+                    <h4 class="header-title-name title header-title-name__works">
+                        Related  Items
+                    </h4>
+                    <div class="header-title-line header-title-line__works"></div>
+                </div>
+    
+                <div class="posts">
+                    
+                    <a href="#" class="posts-item">
                         <img src="/img/post1.png" alt="" class="posts-img">
                         <div class="posts-description">
                             <h4 class="posts-title title posts-title__works">
@@ -99,11 +93,11 @@
                         </div>
                     </a>
     
-                    <a href="/html/portfolio-item.html" class="posts-item">
+                    <a href="#" class="posts-item">
                         <img src="/img/post2.png" alt="" class="posts-img">
                         <div class="posts-description">
                             <h4 class="posts-title title posts-title__works">
-                                Social Media Buttons
+                                Brochure  Design
                             </h4>
                             <span class="posts-date posts-date__works">
                                 June 15, 2012
@@ -111,7 +105,7 @@
                         </div>
                     </a>
                     
-                    <a href="/html/portfolio-item.html" class="posts-item">
+                    <a href="#" class="posts-item">
                         <img src="/img/post3.png" alt="" class="posts-img">
                         <div class="posts-description">
                             <h4 class="posts-title title posts-title__works">
@@ -123,119 +117,18 @@
                         </div>
                     </a>
     
-                    <a href="/html/portfolio-item.html" class="posts-item">
+                    <a href="#" class="posts-item">
                         <img src="/img/post4.png" alt="" class="posts-img">
                         <div class="posts-description">
                             <h4 class="posts-title title posts-title__works">
-                                WordPress  Theme
+                                10 Amazing Websites
                             </h4>
                             <span class="posts-date posts-date__works">
                                 June 15, 2012
                             </span>
                         </div>
                     </a>
-                <!-- /firstRow -->
-
-                <!-- secondRow -->
-                    <a href="/html/portfolio-item.html" class="posts-item">
-                        <img src="/img/post2.png" alt="" class="posts-img">
-                        <div class="posts-description">
-                            <h4 class="posts-title title posts-title__works">
-                                Poster
-                            </h4>
-                            <span class="posts-date posts-date__works">
-                                June 15, 2012
-                            </span>
-                        </div>
-                    </a>
-
-                    <a href="/html/portfolio-item.html" class="posts-item">
-                        <img src="/img/post1.png" alt="" class="posts-img">
-                        <div class="posts-description">
-                            <h4 class="posts-title title posts-title__works">
-                                Web  Graphic  Element
-                            </h4>
-                            <span class="posts-date posts-date__works">
-                                June 15, 2012
-                            </span>
-                        </div>
-                    </a>
-
-                    <a href="/html/portfolio-item.html" class="posts-item">
-                        <img src="/img/post4.png" alt="" class="posts-img">
-                        <div class="posts-description">
-                            <h4 class="posts-title title posts-title__works">
-                                Brochure  Design
-                            </h4>
-                            <span class="posts-date posts-date__works">
-                                June 15, 2012
-                            </span>
-                        </div>
-                    </a>
-
-                    <a href="/html/portfolio-item.html" class="posts-item">
-                        <img src="/img/post3.png" alt="" class="posts-img">
-                        <div class="posts-description">
-                            <h4 class="posts-title title posts-title__works">
-                                Big  buck  Bunney
-                            </h4>
-                            <span class="posts-date posts-date__works">
-                                June 15, 2012
-                            </span>
-                        </div>
-                    </a>
-                    <!-- /secondRow -->
-
-                    <!-- thirdRow -->
-                    <a href="/html/portfolio-item.html" class="posts-item">
-                        <img src="/img/post3.png" alt="" class="posts-img">
-                        <div class="posts-description">
-                            <h4 class="posts-title title posts-title__works">
-                                Cartoon  Characters
-                            </h4>
-                            <span class="posts-date posts-date__works">
-                                June 15, 2012
-                            </span>
-                        </div>
-                    </a>
-
-                    <a href="/html/portfolio-item.html" class="posts-item">
-                        <img src="/img/post4.png" alt="" class="posts-img">
-                        <div class="posts-description">
-                            <h4 class="posts-title title posts-title__works">
-                                Sticker  Design
-                            </h4>
-                            <span class="posts-date posts-date__works">
-                                June 15, 2012
-                            </span>
-                        </div>
-                    </a>
-
-                    <a href="/html/portfolio-item.html" class="posts-item">
-                        <img src="/img/post1.png" alt="" class="posts-img">
-                        <div class="posts-description">
-                            <h4 class="posts-title title posts-title__works">
-                                Business  Cards
-                            </h4>
-                            <span class="posts-date posts-date__works">
-                                June 15, 2012
-                            </span>
-                        </div>
-                    </a>
-
-                    <a href="/html/portfolio-item.html" class="posts-item">
-                        <img src="/img/post2.png" alt="" class="posts-img">
-                        <div class="posts-description">
-                            <h4 class="posts-title title posts-title__works">
-                                Business  Cards
-                            </h4>
-                            <span class="posts-date posts-date__works">
-                                June 15, 2012
-                            </span>
-                        </div>
-                    </a>
-                    <!-- /thirdRow -->
-
+    
                 </div>
     
             </div>

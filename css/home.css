@@ -35,6 +35,7 @@
   width: 15%;
   background-color: #e8663c;
   opacity: 0.6;
+  height: 60px;
 }
 
 .header-title {
@@ -79,10 +80,21 @@
   color: #e8663c;
 }
 
+.portfolio-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.portfolio-header {
+  width: 970px;
+  margin: 0 10px;
+}
+
 .section-header {
-  background-color: #e8663c;
-  padding: 15px 0 0px 20px;
+  max-width: 970px;
   height: 45px;
+  padding: 15px 0 0px 20px;
+  background-color: #e8663c;
 }
 
 .section-header__title {
@@ -148,6 +160,11 @@
 }
 .header__link:hover {
   color: #e8663c;
+}
+
+.header__link--active {
+  color: #e8663c;
+  text-decoration: underline;
 }
 
 .menu-icon-wrapper {
@@ -267,10 +284,6 @@
 
 .welcome-slider__text {
   line-height: 16px;
-}
-
-.decoration-left__welcome, .decoration-right__welcome {
-  height: 60px;
 }
 
 .welcome-slider__wrapper > .slick-arrow {
@@ -401,7 +414,7 @@
     margin-bottom: 30px;
   }
 }
-.works__home {
+.works {
   margin: 50px 0;
 }
 

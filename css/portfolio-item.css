@@ -247,39 +247,6 @@
     display: none;
   }
 }
-.portfolio {
-  margin-bottom: 45px;
-}
-
-.portfolio__menu {
-  display: flex;
-  margin: 35px 0;
-  justify-content: center;
-}
-
-.portfolio__link {
-  font-family: "Bebas Neue", cursive;
-  color: #b9b9b9;
-  font-size: 18px;
-  text-transform: uppercase;
-  text-decoration: none;
-  padding: 10px;
-  transition: color ease-in 0.2s, background ease-in 0.2s;
-}
-.portfolio__link:hover {
-  background-color: #e8663c;
-  color: #fff;
-}
-
-.posts__portfolio {
-  row-gap: 40px;
-}
-
-@media (min-width: 992px) {
-  .portfolio__menu {
-    justify-content: start;
-  }
-}
 .works {
   margin: 50px 0;
 }
@@ -390,5 +357,30 @@
 
   .footer-widget {
     max-width: 220px;
+  }
+}
+.portfolio-item__img {
+  display: block;
+  width: 400px;
+  height: 250px;
+  margin: 15px auto 0;
+}
+
+.portfolio-item__text {
+  margin-top: 15px;
+  color: #414141;
+  line-height: 1.5;
+  font-size: 14px;
+}
+
+@media (min-width: 576px) {
+  .portfolio-item__img {
+    width: 970px;
+    height: 400px;
+    margin-top: 25px;
+  }
+
+  .portfolio-item__text {
+    margin-top: 25px;
   }
 }

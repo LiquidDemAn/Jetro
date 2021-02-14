@@ -1,0 +1,30 @@
+@import "components";
+@import "header";
+@import "works";
+@import "footer";
+
+.portfolio-item__img{
+    display: block;
+    width: 400px;
+    height: 250px;
+    margin: 15px auto 0;
+}
+.portfolio-item__text{
+    margin-top: 15px;
+    color: #414141;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+@media (min-width: 576px) {
+    .portfolio-item__img{
+        width: 970px;
+        height: 400px;
+        margin-top: 25px;
+    }
+
+    .portfolio-item__text{
+        margin-top: 25px;
+    }
+    
+}

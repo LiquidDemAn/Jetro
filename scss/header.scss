@@ -56,7 +56,10 @@
         color: $orange;
     }
 }
-
+.header__link--active{
+    color: $orange;
+    text-decoration: underline;
+}
 // menu-icon
 
 .menu-icon-wrapper {
