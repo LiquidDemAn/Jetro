@@ -1,0 +1,41 @@
+.portfolio{
+    margin-bottom: 45px;
+}
+.portfolio-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.decoration-left__portfolio,.decoration-right__portfolio{
+    height: 60px;
+}
+.portfolio-header{
+    width: 970px;
+    margin: 0 10px;
+}
+.portfolio__menu{
+    display: flex;
+    margin: 35px 0;
+    justify-content: center;
+}
+.portfolio__link {
+    font-family: $bebas;
+    color: $gray;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px;
+    transition: color ease-in 0.2s, background ease-in 0.2s ;
+
+    &:hover{
+        background-color: $orange;
+        color: #fff;
+    }
+}
+.posts__portfolio{
+    row-gap: 40px;
+}
+@media (min-width: 992px) { 
+    .portfolio__menu{
+        justify-content: start;
+    }
+}
