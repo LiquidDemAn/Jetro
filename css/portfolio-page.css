@@ -79,25 +79,68 @@
   color: #e8663c;
 }
 
-.portfolio-wrapper {
+.main-header {
   display: flex;
   justify-content: space-between;
 }
 
-.portfolio-header {
+.main-header-wrapper {
   width: 970px;
   margin: 0 10px;
 }
 
-.section-header {
+.main-header-inner {
   max-width: 970px;
   height: 45px;
   padding: 15px 0 0px 20px;
   background-color: #e8663c;
 }
 
-.section-header__title {
+.main-header__title {
   font-size: 28px;
+}
+
+.sidebar {
+  width: 235px;
+}
+
+.sidebar__block {
+  margin-bottom: 35px;
+}
+
+.sidebar__text {
+  color: #464646;
+}
+
+.sidebar_item {
+  margin-bottom: 5px;
+}
+.sidebar_item:last-child {
+  margin-bottom: 0;
+}
+
+.sidebar__link {
+  font-size: 14px;
+  color: #464646;
+  text-decoration: none;
+  transition: ease-in 0.2s;
+}
+.sidebar__link:hover {
+  color: #e8663c;
+}
+
+.sidebar__gallery {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 11px;
+  row-gap: 11px;
+}
+
+.sidebar__photo {
+  width: 48px;
+  height: 48px;
+  background-color: #e8663c;
+  border: 1px solid red;
 }
 
 .header__wrapper {

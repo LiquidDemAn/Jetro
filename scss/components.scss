@@ -71,22 +71,60 @@
     font-size: 14px;
     color: $orange;
 }
-.portfolio-wrapper{
+.main-header{
     display: flex;
     justify-content: space-between;
 }
-.portfolio-header{
+.main-header-wrapper{
     width: 970px;
     margin: 0 10px;
 }
-.section-header {
+.main-header-inner {
     max-width: 970px;
     height: 45px;
     padding: 15px 0 0px 20px;
     background-color: $orange;
 }
-.section-header__title {
+.main-header__title {
     font-size: 28px;
 }
 
+// sidebar
+.sidebar{
+    width: 235px;
+}
+.sidebar__block{
+    margin-bottom: 35px;
+}
+.sidebar__text{
+    color: #464646;
+}
+.sidebar_item{
+    margin-bottom: 5px;
 
+    &:last-child{
+        margin-bottom: 0;
+    }
+}
+.sidebar__link{
+    font-size: 14px;
+    color: #464646;
+    text-decoration: none;
+    transition: ease-in 0.2s;
+
+    &:hover{
+        color: $orange;
+    }
+}
+.sidebar__gallery{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 11px;
+    row-gap: 11px;
+}
+.sidebar__photo{
+    width: 48px;
+    height: 48px;
+    background-color: $orange;
+    border: 1px solid red;
+}
