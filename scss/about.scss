@@ -2,18 +2,18 @@
 @import "header";
 @import "footer";
 .about__wrapper{
-    margin-top: 30px;
     display: flex;
+    margin-top: 15px;
 }
 .about__description{
     max-width: 685px;
-    margin-right: 50px;
+    margin: 0 auto;
 }
 .about__text {
     color: #000;
 }
 .about__text--mt25{
-    margin-top: 25px;   
+    margin-top: 15px;   
 }
 .header-title__about {
     margin-bottom: 20px;
@@ -26,12 +26,17 @@
 }
 .about-person{
     display: flex;
-    margin: 25px 0;
+    margin: 15px 0;
+    flex-direction: column;
+    align-items: center;
 }
 .about__img{
+    max-width: 221px;
+    height: 221px;
     padding: 2px;
     border: 1px solid $gray;
-    margin-right: 25px;
+    margin-right: 0px;
+    margin-bottom: 15px;
 }
 .about-word__decoration{
     font-size: 36px;
@@ -41,7 +46,7 @@
 .about-quote{
     display: flex;
     justify-content: flex-end;
-    margin-top: 25px;
+    margin-top: 15px;
 }
 .about-quote__text{
     max-width: 600px;
@@ -51,18 +56,18 @@
 }
 .about-column-1,.about-column-2{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
-    margin-top: 25px;
-    row-gap: 40px;
-    column-gap: 20px;
+    margin-top: 15px;
+    row-gap: 20px;
+    column-gap: 10px;
 }
 .about__text--w310{
     max-width: 310px;
 }
 .about-column-2{
     row-gap: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 .about__text--w210{
     max-width: 210px;
@@ -71,8 +76,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 670px;
-    height: 60px;
+    max-width: 670px;
+    height: 40px;
     margin-top: 20px;
     text-align: center;
 
@@ -98,7 +103,7 @@
 .about-alert--bg-blue{
     background-color: rgb( 209, 228, 243 );
     border: 1px solid rgb( 77, 143, 203 );
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 .about-alert__text--color-green{
     color: #98c601;
@@ -112,5 +117,50 @@
 .about-alert__text--color-blue{
     color: #4d8fcb;
 }
-
-  
+@media (min-width: 768px) {
+    .about__wrapper{
+        display: flex;
+        margin-top: 30px;
+    }
+    .about__text--mt25{
+        margin-top: 25px;   
+    }
+    .about-person{
+        margin: 25px auto;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    .about__img{
+        margin-right: 25px;
+        margin-bottom: 25px;
+    }
+    .about-quote{
+        margin-top: 25px;
+    }
+    .about-column-1,.about-column-2{
+        margin-top: 25px;
+    }
+    .about-column-2{
+        margin-bottom: 40px;
+    }
+    .about-alert{
+        height: 60px;
+    
+        &:first-child{
+            margin-top: 0;
+        }
+    }
+    .about-alert--bg-blue{
+        margin-bottom: 40px;
+    }
+}
+@media (min-width: 992px) {
+    .about__description{
+        margin-right: 50px;
+    }
+    .about-column-1,.about-column-2{
+        justify-content: space-between;
+        row-gap: 40px;
+        column-gap: 20px;
+    }
+}

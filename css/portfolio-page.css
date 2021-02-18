@@ -102,6 +102,7 @@
 
 .sidebar {
   width: 235px;
+  display: none;
 }
 
 .sidebar__block {
@@ -143,6 +144,11 @@
   border: 1px solid red;
 }
 
+@media (min-width: 992px) {
+  .sidebar {
+    display: block;
+  }
+}
 .header__wrapper {
   padding: 20px 0;
   display: flex;

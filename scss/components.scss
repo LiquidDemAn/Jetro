@@ -92,6 +92,7 @@
 // sidebar
 .sidebar{
     width: 235px;
+    display: none;
 }
 .sidebar__block{
     margin-bottom: 35px;
@@ -127,4 +128,9 @@
     height: 48px;
     background-color: $orange;
     border: 1px solid red;
+}
+@media (min-width: 992px) {
+    .sidebar{
+        display: block;
+    }
 }
