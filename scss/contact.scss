@@ -1,0 +1,65 @@
+@import "components";
+@import "header";
+@import "footer";
+.contact{
+    display: flex;
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+.contact__wrapper{
+    max-width: 675px;
+    margin: 0 60px 0 auto;
+}
+.contact__img{
+    width: 700px;
+    height: 400px;
+    margin-bottom: 35px;
+}
+.contact__info{
+    display: flex;
+}
+.contact__details{
+    max-width: 180px;
+    margin-right: 35px;
+}
+.contact__text,.contact__address,.contact__phone,.contact__email{
+    color: $textColor;
+}
+.contact__address{
+    max-width: 80px;
+}
+.contact__text--orange--bold{
+    font-weight: bold;
+    color: $orange;
+}
+.contact__text--mb15{
+    margin-bottom: 15px;
+}
+.contact__form{
+    max-width: 460px;
+}
+.form-input{
+    display: block;
+    margin-bottom: 10px;
+    color: $orange;
+    font-family: $bebas;
+    border: 1px solid $orange;
+    text-transform: uppercase;
+
+    &::placeholder{
+        color: $orange;
+    }
+}
+.form__first-name,.form__last-name,.form__email{
+    width: 200px;
+    padding: 10px 0 10px 15px;
+}
+.form__message{
+    width: 440px;
+    height: 200px;
+    padding: 10px 0 0 15px;
+}
+.form__submit{
+    border: none;
+    cursor: pointer;
+}
