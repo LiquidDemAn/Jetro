@@ -10,3 +10,11 @@ $(document).ready(function(){
         focusOnSelect: true
     });
 }); 
+
+$(document).ready(function(){
+    $('.blog-slider__wrapper').slick({
+        slidesToShow: 1,
+        adaptiveHeight: true,
+    });
+
+}); 

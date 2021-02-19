@@ -1,0 +1,114 @@
+@import "components";
+@import "header";
+@import "welcome";
+@import "footer";
+@import "slick";
+.blog{
+    display: flex;
+    margin-top: 25px;
+}
+.blog__wrapper{
+    margin-right: 45px;
+}
+.blog-slider__wrapper{
+    max-width: 670px;
+}
+.blog-slider__wrapper>.slick-arrow{
+    position: absolute;
+    z-index: 1;
+    top: 42%;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+    font-size: 0;
+    width: 36px;
+    height: 36px;
+    background-repeat: no-repeat;
+    &:hover{
+        opacity: 0.7;
+    }
+}
+.slick-arrow.slick-prev{
+    left: 2%;
+    background: url(/img/previous.png) no-repeat 100%;
+
+}
+.slick-arrow.slick-next{
+    right: 2%;
+    background: url(/img/next.png) no-repeat 100%;
+}
+.welcome-blog__img{
+    height: 300px;
+    max-width: 670px;
+}
+.blog-post__wrapper{
+    display: flex;
+    margin-top: 25px;
+}
+.blog-post-info{
+    max-width: 105px;
+    margin-right: 50px;
+}
+.blog-post-info__item{
+    margin-bottom: 15px;
+
+    &:last-child{
+        margin-bottom: 0;
+    }
+}
+.blog-post-info__title{
+    margin-bottom: 5px;
+    color: $orange;
+}
+.blog-post-info__text{
+    color: #bababa;
+}
+.blog-post-description{
+    max-width: 500px;
+}
+.blog-post-description__title{
+    font-size: 24px;
+    color: $orange;
+}
+.blog-post-description__text{
+    margin-top: 20px;
+    color: $textColor;
+}
+
+
+.blog-line--decoration {
+    width: 100%;
+    background: url(/img/header-lines.png);
+    height: 15px;
+    margin: 50px 0;
+}
+.blog-quote{
+    display: flex;
+    // height: 35px;
+    padding: 20px 30px 20px 35px;
+    background-color: rgb( 245, 245, 245 );
+}
+.blog-quote__bracket{
+    display: block;
+    margin-right: 10px;
+    font-size: 72px;
+    line-height: 0.7;
+    color: $orange;
+}
+.blog-quote__text{
+    color: #474747;
+    font-style: italic;
+}
+.blog-post__site{
+    color: #a0a0a0;
+}
+.blog-pagination{
+    margin-bottom: 45px;
+}
+.blog-pagination__btn{
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    margin-right: 5px;
+}
