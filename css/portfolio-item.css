@@ -101,7 +101,7 @@
 }
 
 .sidebar {
-  width: 235px;
+  max-width: 235px;
   display: none;
 }
 
